@@ -28,7 +28,7 @@ app.use(
 dotenv.config();
 mongoose
   .connect(
-    "mongodb+srv://savagetechy90:WeJAlx3BgepAtjRq@cluster0.vyqtfl8.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
+    "mongodb+srv://naveen:kLzfAWs8CevLXXkW@backendapi.pdd1v.mongodb.net/?retryWrites=true&w=majority&appName=backendapi",
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,
