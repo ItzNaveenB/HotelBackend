@@ -75,7 +75,7 @@ async function sendEmail(username, password, role) { // Add role parameter
 
   let mailOptions = {
     from: process.env.GMAIL_EMAIL,
-    to: "naveenbaghel5429@gmail.com",
+    to: email,
     subject: 'Your Account Details',
     text: `Hello,\n\nYour account has been successfully created.\nUsername: ${username}\nPassword: ${password}\nRole: ${role}\n\nRegards,\nThe Team`
   };
